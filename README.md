@@ -11,6 +11,9 @@ training speed (similar to `src/multiview_triplet_loss_old.py`). The current ver
 ### Dependencies
 python 3, pytorch 1.4, h5py, numpy, scipy
 
+### Dataset (for the purpose of TTIC 31110)
+Use [this link](https://forms.gle/EGuaYYW72bzs4KbK8) to download the dataset.
+
 ### Training
 
 Edit `train_config.json` and run `train.sh`
