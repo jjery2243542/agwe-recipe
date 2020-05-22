@@ -33,3 +33,8 @@ With the default train_config.json you should obtain the following results:
 acoustic_ap= 0.79
 
 crossview_ap= 0.75
+
+### Acknowledgement
+
+This repo is forked from [Shane Settle's agwe-recipe repo](https://github.com/shane-settle/agwe-recipe).
+
