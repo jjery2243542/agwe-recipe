@@ -155,7 +155,6 @@ class MultiViewDataset_IndividualWords(SpeechDataset):
 
     feats = h5py.File(feats, "r")
     align = h5py.File(align, "r")
-
     num_ignored = 0
     examples = {}
     for uid, g in align.items():
