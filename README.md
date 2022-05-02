@@ -9,7 +9,7 @@ Hard negative sampling was added in [Settle et al., 2019](https://arxiv.org/pdf/
 training speed (similar to `src/multiview_triplet_loss_old.py`). The current version (see `src/multiview_triplet_loss.py`) uses semi-hard negative sampling [Schroff et al.](https://arxiv.org/pdf/1503.03832.pdf) (instead of hard negative sampling) and includes `obj1` from Wanjia et al. in the loss.
 
 ### Dependencies
-python 3, pytorch 1.4, h5py, numpy, scipy
+python 3, pytorch>=1.4, h5py, numpy, scipy
 
 ### Dataset (for the purpose of TTIC 31110)
 Use [this link](https://forms.gle/EGuaYYW72bzs4KbK8) to download the dataset.
